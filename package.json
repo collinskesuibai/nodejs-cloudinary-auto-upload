@@ -1,0 +1,26 @@
+{
+  "name": "cloud_screenshot",
+  "version": "1.0.0",
+  "description": "autoupload screenshot",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "watch": "tsc -w",
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "cloud",
+    "auto",
+    "screenshot"
+  ],
+  "author": "Collins Kiprop Kesuibai",
+  "license": "ISC",
+  "dependencies": {
+    "chokidar": "^3.5.1",
+    "cloudinary": "^1.25.1",
+    "dotenv": "^9.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^15.0.2"
+  }
+}
