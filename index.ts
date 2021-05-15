@@ -4,8 +4,8 @@ import chokidar from 'chokidar';
 import os from 'os';
 import fs from 'fs';
 
-const folder = 'test';
-const subfolder = 'test';
+const folder = 'ai-udacity';
+const subfolder = 'SVM';
 
 const cloud = cloudinary.v2;
 cloud.config({
@@ -21,13 +21,9 @@ const uploadImage = (path: string, filename: string) => {
     { public_id: `${folder}/${subfolder}/${filename}` },
     function (error, result) {
       if (result) {
-        fs.appendFile(
-          'links.txt',
-          `${os.EOL}![](${result.url})`,
-          function (err) {
-            if (err) return console.log(err);
-          },
-        );
+        fs.appendFile('links.txt', `${os.EOL}${result.url}`, function (err) {
+          if (err) return console.log(err);
+        });
       }
     },
   );

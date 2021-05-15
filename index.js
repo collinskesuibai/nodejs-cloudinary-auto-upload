@@ -8,8 +8,8 @@ require('dotenv').config();
 var chokidar_1 = __importDefault(require("chokidar"));
 var os_1 = __importDefault(require("os"));
 var fs_1 = __importDefault(require("fs"));
-var folder = 'test';
-var subfolder = 'test';
+var folder = 'ai-udacity';
+var subfolder = 'SVM';
 var cloud = cloudinary_1.default.v2;
 cloud.config({
     cloud_name: process.env.CLOUD_NAME,
@@ -20,7 +20,7 @@ var uploadImage = function (path, filename) {
     console.log();
     cloud.uploader.upload(path, { public_id: folder + "/" + subfolder + "/" + filename }, function (error, result) {
         if (result) {
-            fs_1.default.appendFile('links.txt', os_1.default.EOL + "![](" + result.url + ")", function (err) {
+            fs_1.default.appendFile('links.txt', "" + os_1.default.EOL + result.url, function (err) {
                 if (err)
                     return console.log(err);
             });

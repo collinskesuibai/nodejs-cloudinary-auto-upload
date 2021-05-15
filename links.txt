@@ -1,7 +1,0 @@
-
-![](http://res.cloudinary.com/dqsfvc7vo/image/upload/v1620625886/test/test/2021-04-26%2011_39_16-KENET%20Web%20Conference%20-%20ECE%20294_%20Lectures_four.png.png)
-![](http://res.cloudinary.com/dqsfvc7vo/image/upload/v1620625458/test/test/2021-04-26%2011_42_28-KENET%20Web%20Conference%20-%20ECE%20294_%20Lectures_four.png.png)
-![](http://res.cloudinary.com/dqsfvc7vo/image/upload/v1620625886/test/test/2021-04-26%2016_40_36-Zoom%20Meeting%2040-Minutes.png.png)
-![](http://res.cloudinary.com/dqsfvc7vo/image/upload/v1620625472/test/test/2021-05-06%2010_54_50-Introduction%20to%20Machine%20Learning%20with%20TensorFlow%20-%20Udacity.png.png)
-![](http://res.cloudinary.com/dqsfvc7vo/image/upload/v1620624575/test/test/2021-04-26%2014_56_10-Zoom%20Meeting.png.png)
-![](http://res.cloudinary.com/dqsfvc7vo/image/upload/v1620626068/test/test/2021-05-10%2008_54_19-cloud_screenshot%20-%20Visual%20Studio%20Code.png.png)

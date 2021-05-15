@@ -6,7 +6,8 @@
   "scripts": {
     "test": "test",
     "watch": "tsc -w",
-    "start": "nodemon index.js"
+    "start": "nodemon index.js",
+    "arrange":"nodemon rearrange.js"
   },
   "keywords": [
     "cloud",
